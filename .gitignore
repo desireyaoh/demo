@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Android
+local.properties
+*.iml
+.cxx/
+captures/
+output.json
+
+# IDE - Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+
+# Kotlin
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keystore (don't commit signing keys)
+*.jks
+*.keystore
